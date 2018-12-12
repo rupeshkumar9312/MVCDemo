@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Countries List";
+}
+@*<h1>This is for Demo Purpose Only</h1>*@
+<h2>Countries List</h2>
+<ul>
+    @foreach (string countries in (List<string>)ViewData["Countries"])        //@ symbol is used to write C# code in html page. or to switch between C# code and HTML
+    {
+        <li>@countries</li>
+    }
+</ul>
+
+
+

@@ -1,0 +1,19 @@
+﻿------------------------------Views in MVC Application------------------------------
+ View Data
+ ViewBag 
+
+ Passing data from View to controller.
+ @ symbol is used to write C# code in html page. or to switch between C# code and HTML
+
+----------------------------ViewData And ViewBag-------------------------------------
+ Both are used to pass data toview from controller.
+ ViewBag doesn't provide any compile time error checking if we misspell the Viewbag dynamic property.
+ ViewData also doesn't provide compile time error checking. 
+ We must use strongly type view models. Its the best practice. 
+ View data use keys.
+ ViewBag use properties.
+
+----------------------------Models in MVC--------------------------------------------
+
+
+---------------------------Data Access in MVC Application-----------------------------

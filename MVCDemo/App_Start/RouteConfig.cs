@@ -11,7 +11,8 @@ namespace MVCDemo
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}"); //This ignores the resource files path. if we comment this line then an error 
+            //will occur saying The resource cannot be found. 
 
             routes.MapRoute(
                 name: "Default",
